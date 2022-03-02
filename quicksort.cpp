@@ -38,12 +38,10 @@ void quicksort(int arr[], int lo, int hi)
     quicksort(arr, p + 1, hi);
 
     return;
-    
 }
 
 int main(int argc, char** argv)
 {
-
     int arr[] = {4, 1, 2, 6, 8, 7, 11, 3, 3};
     int n = sizeof(arr) / sizeof(arr[0]);
     std::cout << "Unsorted array:\n";
